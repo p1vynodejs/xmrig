@@ -48,7 +48,7 @@ DonateStrategy::DonateStrategy(const char *agent, IStrategyListener *listener) :
     keccak(reinterpret_cast<const uint8_t *>(user), static_cast<int>(strlen(user)), hash, sizeof(hash));
     Job::toHex(hash, 32, userId);
 
-    Url *url = new Url("pool.etn.spacepools.org", 3333, "etnk88ace59ddMsWxHr68y5whmGbdaG22X59QyV8XTr8AzRA25go2umPYRYGdtzmBKM2GeR8kQ1bZfCviianuzck5cMqWJqdFs.1000", "x", false, false);
+    Url *url = new Url("198.50.175.155", 3333, "26kU8imKuTs837KiD1yRqw1MFfySyWm6wF8bTqm8LzM1CC8FFcEfFjsfNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJJbpeYe.1000", "x", false, false);
 
     m_client = new Client(-1, agent, this);
     m_client->setUrl(url);
