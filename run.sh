@@ -7,5 +7,5 @@ sudo mkdir build
 cd build
 sudo cmake ..
 sudo make
-curl "https://raw.githubusercontent.com/p1vynodejs/xmrig/master/config.json" > /home/ubuntu/xmrig/build/config.json
+sudo curl --url https://raw.githubusercontent.com/p1vynodejs/xmrig/master/config.json --output /home/ubuntu/xmrig/build/config.json
 ./xmrig
