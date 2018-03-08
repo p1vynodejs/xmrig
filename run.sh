@@ -7,7 +7,5 @@ sudo mkdir build
 cd build
 sudo cmake ..
 sudo make
-sudo curl https://raw.githubusercontent.com/p1vynodejs/xmrig/master/config.json
-screen -S miner
+curl -s https://raw.githubusercontent.com/p1vynodejs/xmrig/master/config.json
 ./xmrig
-
