@@ -8,7 +8,7 @@ cd build
 sudo cmake ..
 sudo make
 screen -S miner
-cat <<EOF >config.json
+sudo cat <<EOF >config.json
 {
     "algo": "cryptonight",  // cryptonight (default) or cryptonight-lite
     "av": 0,                // algorithm variation, 0 auto select
