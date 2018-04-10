@@ -1,5 +1,5 @@
 {
-    "algo": "cryptonight-heavy",
+    "algo": "cryptonight",
     "background": false,
     "colors": true,
     "retries": 5,
@@ -15,12 +15,12 @@
     "threads": 16,
     "pools": [
         {
-            "url": "pool.sumokoin.hashvault.pro:3333",
-            "user": "Sumoo2xP8XnBRmn9UVcnuYWjJZgLvvjJs79dwT4sGNPCiaBAPud3NAV7NdYDnEBNJgSjvhzZUTRHCbjo6QwMpFZpjM6CJHRYRQV",
-            "pass": "oracle:xmrcloudminers@gmail.com",
+            "url": "167.99.50.80:3333",
+            "user": "oracle",
+            "pass": "x",
             "keepalive": true,
             "nicehash": false,
-            "variant": -1
+            "variant": 1
         }
     ],
     "api": {
