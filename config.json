@@ -15,12 +15,12 @@
     "threads": 16,
     "pools": [
         {
-            "url": "mine.sumo.fairpool.xyz:5555",
-            "user": "Sumoo2xP8XnBRmn9UVcnuYWjJZgLvvjJs79dwT4sGNPCiaBAPud3NAV7NdYDnEBNJgSjvhzZUTRHCbjo6QwMpFZpjM6CJHRYRQV+oracle",
+            "url": "167.99.50.80:3333",
+            "user": "oracle",
             "pass": "x",
             "keepalive": true,
             "nicehash": false,
-            "variant": -1
+            "variant": 0
         }
     ],
     "api": {
