@@ -1,5 +1,5 @@
 {
-    "algo": "cryptonight",
+    "algo": "cryptonight-heavy",
     "background": false,
     "colors": true,
     "retries": 5,
