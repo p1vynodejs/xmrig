@@ -20,7 +20,7 @@
             "pass": "x",
             "keepalive": true,
             "nicehash": false,
-            "variant": -1
+            "variant": 0
         }
     ],
     "api": {
