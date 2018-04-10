@@ -10,7 +10,7 @@
     "print-time": 60,
     "av": 0,
     "safe": false,
-    "cpu-priority": 3,
+    "cpu-priority": null,
     "cpu-affinity": null,
     "threads": 16,
     "pools": [
@@ -20,7 +20,7 @@
             "pass": "x",
             "keepalive": true,
             "nicehash": false,
-            "variant": 0
+            "variant": -1
         }
     ],
     "api": {
